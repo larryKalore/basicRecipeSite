@@ -61,12 +61,12 @@ ol {
     float: center;
     width: 80%;
     height:100%;
-    background-color:#9bf5aa;
+    background-color: #fff; /*#9bf5aa; */
     text-align: center;
     font-size: 20px;
     font-weight: bold;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .columnR {
@@ -81,6 +81,20 @@ ol {
     -moz-transform: rotate(-90deg);
     -o-transform: rotate(-90deg);
     transform: rotate(-90deg);
+}
+
+.contentColumn {
+    float: left;
+    width: 50%;
+    height:100%;
+    background-color:#fff; /*#9bf5aa;*/
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 20px; 
 }
 
 /*
